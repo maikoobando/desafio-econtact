@@ -86,6 +86,32 @@ body {
     text-align: center;
 }
 
+#div3_4_1_1,
+#div3_4_2_1,
+#div3_4_3_1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#div3_4_1_2,
+#div3_4_2_2,
+#div3_4_3_2 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#div3_4_1_3,
+#div3_4_2_3,
+#div3_4_3_3 {
+    display: inline-block;
+    align-items: center;
+}
+
+
+
 
 #div3_1_1 {
     border-radius: 10px;
@@ -118,7 +144,7 @@ body {
     color: rgb(33, 111, 177);
 }
 
-#div4_2_2 {
+#div4_1_2 {
     padding-top: 20px;
     font-weight: bold;
     font-size: 15px;
