@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#div1 {
+    padding-top: 12px;
+    background-color: rgb(33, 111, 177);
+    height: 35px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 20px;
+    text-align: center;
+}
+
+#div2 {
+    display: block;
+    align-items: center;
+    background-color: rgb(44, 153, 163);
+    height: 120px;
+    padding-top: 25px;
+}
+
+#div2_1 {
+    color: white;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+#div2_2 {
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+#span2_2 {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#div3 {
+    display: flex;
+    gap: 30px;
+    padding: 50px 10% 30px 10%;
+    border-bottom: 1px solid gray;
+}
+
+#div3_1 {
+    padding-top: 20px;
+}
+
+.classCuadrado {
+    display: block;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(33, 111, 177);
+    padding-top: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+}
+
+.classBoton {
+    height: 30px;
+    width: 95px;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(33, 111, 177);
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#div3_4_1,
+#div3_4_2,
+#div3_4_3 {
+    margin: 30px;
+    /* float: left; */
+    text-align: center;
+}
+
+
+#div3_1_1 {
+    border-radius: 10px;
+    background-color: rgb(57, 57, 59);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#div3_1_1 {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+
+
+#div4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#div4_1_1 {
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(33, 111, 177);
+}
+
+#div4_2_2 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+}
+
+#div4_2 {
+    display: flex;
+}
+
+#div5 {
+    height: 120px;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgb(44, 153, 163);
+    font-size: 15px;
+    /* float:none; */
+}
+
+#div5_1 {
+    padding: 10px 0;
+}
+
+#div5_2 {
+    padding: 10px 0;
+}
+
+#div5_2 .classBoton {
+    padding: 8px 10px;
+    margin-left: 10px;
+}
+
+footer {
+
+    display: flex;
+    margin-top: 100px;
+    background-color: rgb(33, 111, 177);
+    color: white;
+    font-size: 15px;
+}
+
+#divF1{
+    padding-left: 30px;
+}
+#divF2{
+    text-align: right;
+}
+
+#divF1,
+#divF3 {
+    padding-top: 60px;
+    width: 20%;
+}
+
+#divF2 {
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+#divF2 p {
+    margin: 3px;
+}
+
+#programador {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #div3 {
+        padding: 50px 10px 30px 10px;
+    }
+
+    #div3_1 {
+        width: 60%;
+    }
+
+    #div3_2 img {
+        width: 100%;
+    }
+
+    #div4_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    #div4_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
